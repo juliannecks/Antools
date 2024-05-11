@@ -4,10 +4,8 @@ body{
 }
 
 .container{
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
     width: 1224px;
+    margin: 0 auto;
 }
 
 .company-logo{
@@ -25,7 +23,7 @@ body{
 
 .header{
     padding-top: 38.31px;
-    padding-bottom: 104px;
+    padding-bottom: 15px;
 }
 
 .header-container{
@@ -46,6 +44,20 @@ body{
     color: #FFFFFF8C;
 }
 
+.nav-list-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-list-item::after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url("./image/chevron-down.png");
+    display: inline-block;
+}
+
 .user-list{
     display: flex;
     gap: 41px;
@@ -60,7 +72,7 @@ body{
     color: #FFFFFFC7;
 }
 
-.user-list-btn{
+.user-list-link-second{
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -68,6 +80,15 @@ body{
     color: #FDF5FF; 
     background-color: #FF6E30;
     border-radius: 8px;   
+    width: 118px;
+    height: 48px;
+}
+
+.hero{
+    padding-top: 85px;
+    background-image: url("./image/Illustration.png");
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .hero-title{
@@ -154,19 +175,17 @@ body{
 .popular-list{
     display: flex;
     flex-wrap: wrap; 
-    column-gap: 8px;
+    column-gap: 24px;
     row-gap: 100px;
 }
 
 .popular-list-item{
     padding: 33px;
     max-width: 392px;
-}
-
-.popular-list-item:hover{
-    background-color: #28303699;
-    border: 2px;
-    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    align-items: center;
 }
 
 .popular-list-title{
@@ -201,6 +220,21 @@ body{
     line-height: 24px;
     letter-spacing: 0em;
     color: #FFFFFF8C;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: auto;
+}
+
+.container-popular-list{
+    display: flex;
+    gap: 30px;
+}
+
+.option-list{
+    display: flex;
+    gap: 12px;
 }
 
 .popular-btn{
@@ -223,10 +257,9 @@ body{
 .brand{
     padding-top: 55px;
     padding-bottom: 56px;
-    background-color: #2C353D33;
-    border: 2px;
-    border-radius: 25px;
-    
+    background-image: url("./image/Rectangle308.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .brand-title{
@@ -244,6 +277,8 @@ body{
 .brand-list{
     display: flex;
     justify-content: space-between;
+    padding-left: 82px;
+    padding-right: 82px;
 }
 
 .newcomer{
