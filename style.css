@@ -60,7 +60,7 @@ body{
 
 .user-list{
     display: flex;
-    gap: 41px;
+    gap: 13px;
     margin-left: auto;
 }
 
@@ -70,6 +70,11 @@ body{
     line-height: 24px;
     letter-spacing: 0em;
     color: #FFFFFFC7;
+    display: block;
+    padding-left: 28px;
+    padding-bottom: 12px;
+    padding-right: 28px;
+    padding-top: 12px;
 }
 
 .user-list-link-second{
@@ -80,8 +85,11 @@ body{
     color: #FDF5FF; 
     background-color: #FF6E30;
     border-radius: 8px;   
-    width: 118px;
-    height: 48px;
+    display: block;
+    padding-left: 28px;
+    padding-bottom: 12px;
+    padding-right: 28px;
+    padding-top: 12px;
 }
 
 .hero{
@@ -182,10 +190,6 @@ body{
 .popular-list-item{
     padding: 33px;
     max-width: 392px;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    align-items: center;
 }
 
 .popular-list-title{
@@ -211,6 +215,8 @@ body{
     letter-spacing: 0em;
     color: #FFFFFF8C;
     max-width: 326px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .popular-list-link{
@@ -225,6 +231,10 @@ body{
     padding-left: 35px;
     padding-right: 35px;
     margin-left: auto;
+}
+
+.popular-optional-list-wrap{
+    display: flex;
 }
 
 .container-popular-list{
@@ -284,6 +294,7 @@ body{
 .newcomer{
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 
 .newcomer-title{
@@ -300,6 +311,9 @@ body{
     line-height: 30px;
     letter-spacing: 0em;
     color: #FFFFFF8C;
+    max-width: 427px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .newcomer-btn{
@@ -311,6 +325,10 @@ body{
     color: #FFFFFF;
     background-color: #FF6E30;
     border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .newcomer-list-title{
@@ -335,6 +353,8 @@ body{
     line-height: 30px;
     letter-spacing: 0em;
     color: #FFFFFF8C;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .newcomer-list-btn{
@@ -349,6 +369,41 @@ body{
     line-height: 24px;
     letter-spacing: 0em;
     color: #FFFFFF8C;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: auto;
+}
+
+.newcomer-list-item-wrap{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.newcomer-option-list-wrap{
+    display: flex;
+}
+
+.newcomer-list-item{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 22px;
+    padding-right: 22px;
+    max-width: 288px;
+}
+
+.newcomer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcomer-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 50px;
 }
 
 .join{
