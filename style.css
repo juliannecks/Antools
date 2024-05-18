@@ -129,10 +129,20 @@ body{
     padding-bottom: 10px;
     padding-left: 18.06px;
     padding-right: 11.04px;
-    background-image: url("./image/Rectangle314-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #283036;
+    border-radius: 15px;
+    border: 1.5px;
     display: flex;
+    align-items: center;
+    gap: 13.08px;
+}
+
+.hero-form::before{
+    content: "";
+    background-image: url("./image/search.png");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
 }
 
 .hero-form-input{
@@ -452,6 +462,7 @@ body{
     margin-bottom: 100px;
 }
 
+ 
 .join-form{
     margin: auto;
     max-width: 549px;
@@ -459,11 +470,10 @@ body{
     padding-bottom: 9px;
     padding-right: 12.38px;
     padding-left: 24.18px;
-    background-image: url("./image/Rectangle314.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
+    border: 1.5px;
+    border-radius: 15px;
+    background-color: #283036;
 }
 
 .join-form-input{
@@ -490,10 +500,6 @@ body{
     padding-left: 36.43px;
     padding-right: 35.81px;
     margin-left: auto;
-}
-
-.break{
-    border: 0.5px solid #FFFFFF26
 }
 
 .company-logo-second{
