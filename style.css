@@ -433,6 +433,126 @@ body{
     max-width: 600px;
 }
 
+.testimonial-left-btn{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background-image: url("./image/chevron-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    background-color: #1E252B;
+    margin-right: 107px;
+}
+
+.testimonial-right-btn{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background-image: url("./image/chevron-left-right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    background-color: #1E252B;
+    margin-left: 108px;
+}
+
+.testimonial-man-name{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    color: #FFFDFDC7;
+}
+
+.testimonial-man-position{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFDFD8C;
+}
+
+.testimonial-man-discription-text{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #FFFFFFC7;
+    max-width: 393px;
+    margin-left: 57px;
+}
+
+.testimonial-man-discription{
+    width: 445px;
+    height: 225px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("./image/“.png");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.testimonial-man{
+    background-image: url("./image/Rectangle327.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 265px;
+    height: 91px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 23px;
+    padding-right: 22px;
+    margin-bottom: 29px;
+}
+
+.testimonial-man-backgroud{
+    background-image: url("./image/Group1419.png");
+    background-repeat: no-repeat;
+    width: 399px;
+    height: 492px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.testimonial-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 18px;
+}
+
+.testimonial-list-item{
+    background-image:url("./image/Rectangle337.png") ;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 6px;
+}
+
+.testimonial-list-item-color{
+    background-image: url("./image/Rectangle335.png");
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 8px;
+}
+
+.testimonial-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .join{
     padding-top: 250px;
     padding-bottom: 240px;
@@ -462,7 +582,7 @@ body{
     margin-bottom: 100px;
 }
 
- 
+
 .join-form{
     margin: auto;
     max-width: 549px;
@@ -517,6 +637,7 @@ body{
 .footer{
     padding-bottom: 98px;
     padding-top: 70px;
+    border-top: 0.5px solid #FFFFFF26;
 }
 
 .footer-text-first{
